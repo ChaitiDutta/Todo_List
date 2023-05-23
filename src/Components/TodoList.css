@@ -1,0 +1,148 @@
+.todo-list {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #fff;
+    margin: 30px 0;
+    text-align: center;
+  }
+  
+  .add-todo {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .add-todo input[type="text"] {
+    /* color: #fff; */
+    flex: 1;
+    /* padding: 5px; */
+    font-size: 16px;
+    border: 2px solid #7fdf83;
+    outline: none;
+    width: 260px;
+    padding: 15px;
+    margin-right: 25px;
+    border-radius: 10px;
+  }
+  
+  .add-todo button {
+    width: 70px;
+    height: 50px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  /* .sort {
+    margin-bottom: 10px;
+  }
+  
+  .sort label {
+    font-size: 16px;
+    margin-right: 10px;
+  } */
+  
+  .todo-items {
+    list-style-type: none;
+    padding: 0;
+    /* margin: 20px 0; */
+    
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-left:  solid #227225; 
+    margin: 20px 0;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 10px; */
+    padding: 0px 10px 10px 10px  ;
+    max-height: 30px;
+    color: #fff;
+}
+
+.todo-item input[type="text"] {
+      /* margin-right: 200px; */
+    /* position: absolute; */
+   
+    flex: 1;
+    /* padding: 5px; */
+    font-size: 14px;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+margin-top: 8px;
+    outline: none;
+    width: 220px;
+    padding: 8px;
+    margin-right: 25px;
+    border-radius: 10px;
+  }
+  
+  .button-group {
+    margin-left: 10px;
+  }
+  
+  .edit-button,
+  .delete-button, .save-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+
+    width: 60px;
+    height: 36px;
+    
+  }
+  .align{
+    position: relative;
+    right: 0;
+   text-align: right;
+  }
+  .edit-button{
+      
+      /* background-color: #2e86ce; */
+}
+
+.edit-button:hover {
+      background-color: #2083d4;
+  }
+  .save-button:hover {
+    background-color: #2083d4;
+  }
+  
+  .delete-button {
+    background-color: #f0574c;
+  }
+  .delete-button:hover {
+    background-color: #d64c42;
+  }
+  .sort{
+    text-align: center;
+  }
+  
+  .sorted{
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    
+  }
+  .sorted:hover {
+    background-color: #45a049;
+  }
